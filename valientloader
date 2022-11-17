@@ -1,0 +1,10 @@
+--\\BSS\\--
+if game.PlaceId == 1537690962 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Historia00012/HISTORIAHUB/main/BSS%20FREE%22))()
+--\\King Legacy\\--
+elseif game.PlaceId == 4520749081 or game.PlaceId == 6381829480 then
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader%22)()
+--\\Combat Warriors\\--
+elseif game.PlaceId == 4282985734 then
+local load_,l,g = "https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE%22,function(a)return loadstring(a)()end,game;local s,r = pcall(g.HttpGet,g,load_)pcall(l,r) 
+end
